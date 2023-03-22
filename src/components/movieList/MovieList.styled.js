@@ -10,16 +10,11 @@ export const ListItem = styled.li`
     margin-bottom: 5px;
   }
 `;
-export const MovieLink = styled(Link)`
+export const TrendingMovieLink = styled(Link)`
   color: black;
   text-decoration: none;
   font-weight: 500;
   :hover {
     color: #ab47bc;
   }
-`;
-
-export const Form = styled.form`
-  display: flex;
-  gap: 10px;
 `;
